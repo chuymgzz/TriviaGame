@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Trivia Game</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">  
+  <link href="assets/css/reset.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+  <header class="mainHeader">
+  </header>
+<!--Sets wrapper for header, instructions and game)-->
+  <div class="wrapper">
+<!--Sets space left of the content)-->
+    <div class="col-md-3">
+    </div>
+<!--Sets content in the middle)-->    
+      <div class="col-md-6 text-center">
+        <header>
+        <img src="">
+        <h1 class="intro__title">Trivia Game</h1>
+        </header>
+<!--Instructions-->
+        <div class="instructions">
+          <p class="intro__desc">The game consists of 8 statements related to famous tech companies. <br> Hover over the list of options and select your best guess. <br> You have 5 seconds to answer, so hurry up. <br> <strong>Good Luck!</strong></p>
+          <br>
+        </div>
+<!--Game-->
+        <div>
+          <button class='btn btn-default' id='startButton'>Start</button>
+<!-- Question page -->
+          <div id=remainingTime></div>
+          <div id=currentQuestion></div>
+          <div class='question'></div>
+          <div class='answerList'></div>
+<!-- Answer Page -->
+          <div id=message></div>
+          <div id=correctedAnswer></div>
+          <div id=gif></div>
+<!-- Scoreboard -->
+          <div id=finalMessage></div>
+          <div id=correctAnswers></div>
+          <div id=incorrectAnswers></div>
+          <div id=unanswered></div>
+          <div id='startOverBtn'></div>
+        </div>
+<!--Sets space right of the content-->  
+        <div class="col-md-3">   
+        </div>
+      </div>
+  </div> 
+<!--Footer-->
+    <div class="col-md-12">
+        <footer class="text-center">
+          <div class="container">
+            <nav class="social"><a class="social__icon" href=""><i class="fa fa-twitter"></i></a> | <a class="social__icon" href=""><i class="fa fa-facebook"></i></a> | <a class="social__icon" href=""><i class="fa fa-github"></i></a> | <a class="social__icon" href=""><i class="fa fa-linkedin"></i></a>
+            <br> &copy; chuy!</p>
+          </div>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script type="text/javascript" src="assets/js/game.js"></script>
+</body>
+
+</html>

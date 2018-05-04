@@ -1,0 +1,48 @@
+html, body{
+      color: #000000;
+      border-color: #797979;
+      font-size: 15px;
+      line-height: 35px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      background-color: #ffffff;  
+      height: 100%;  	
+  }
+  
+.wrapper {
+    height: 90%;
+    margin: 0 auto 0em;
+  }
+
+#magic {
+    text-align: left;
+}
+
+.mainHeader {
+  background-color: #ffffff;
+}
+
+.social__icon {
+  color: #000
+}
+
+.btn-default:hover, .reset:hover{
+  background-color: #dddddd;
+}
+
+#message, #finalMessage{
+  font-family: inherit;
+  font-weight: bold;
+}
+
+.thisChoice:hover{
+	background-color: #f7f5f5;
+	color: rgb(0, 0, 0);
+  padding: 0px;
+  border-color: gray;
+  border: gray;
+  border-width: 10px;
+}
+
+#gif{
+	margin-top: 10px;
+}
